@@ -18,10 +18,7 @@ signal count : unsigned(1 downto 0) := "00";
 begin
     handle_state : process(clk, rst)
     begin
-        report "CURRENT STATE: " & all_states'image(current_state);
-
         if(falling_edge(rst)) then
-            report "falling edge of reset";
             current_state <= RG;
         elsif(rising_edge(clk)) then
             count <= count + 1;
