@@ -18,11 +18,18 @@ Documenting my journey learning VHDL and FPGA design from zero using Apple Silic
 
 ## Projects
 
-1. AND Gate
-2. XOR Gate
-3. 2:1 Multiplexer
-4. 4-bit Counter
-5. Clock Divider
-6. LED Blinker Simulation
-7. FSM Traffic Light
-8. UART TX
+### `logic/` – Combinational Logic Blocks
+- AND Gate  
+- XOR Gate  
+- 2:1 Multiplexer  
+
+### `timing/` – Clocked & Timing-Based Circuits
+- 4-bit Counter  
+- Clock Divider  
+- LED Blinker Simulation  
+
+### `fsm/` – Finite State Machines
+- FSM Traffic Light  
+
+### `uart/` – Serial Communication
+- UART TX  
