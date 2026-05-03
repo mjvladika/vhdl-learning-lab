@@ -26,7 +26,3 @@ Documenting my journey learning VHDL and FPGA design from zero using Apple Silic
 6. LED Blinker Simulation
 7. FSM Traffic Light
 8. UART TX
-
-## Progress Log
-
-See `/projects`
