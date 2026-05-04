@@ -23,12 +23,6 @@ architecture rtl of button_lock_sequence is
 begin
     process(clock, btn_a, btn_b, btn_c)
     begin
-
-        report std_logic'image(prev_b);
-        report std_logic'image(btn_b);
-        report boolean'image(prev_b = '0' and btn_b = '1');
-        report all_states'image(curr_state);
-
         if(rising_edge(clock)) then
             case curr_state is
                 when LOCKED => 
