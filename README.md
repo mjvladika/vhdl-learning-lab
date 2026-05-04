@@ -29,7 +29,8 @@ Documenting my journey learning VHDL and FPGA design from zero using Apple Silic
 - LED Blinker Simulation  
 
 ### `fsm/` – Finite State Machines
-- FSM Traffic Light  
+- Traffic Light
+- Button Lock Sequence
 
 ### `uart/` – Serial Communication
 - UART TX  
