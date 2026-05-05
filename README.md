@@ -34,3 +34,4 @@ Documenting my journey learning VHDL and FPGA design from zero using Apple Silic
 
 ### `uart/` – Serial Communication
 - UART TX  
+- UART RX
