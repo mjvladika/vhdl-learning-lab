@@ -26,7 +26,8 @@ Documenting my journey learning VHDL and FPGA design from zero using Apple Silic
 ### `timing/` – Clocked & Timing-Based Circuits
 - 4-bit Counter  
 - Clock Divider  
-- LED Blinker Simulation  
+- LED Blinker Simulation
+- 8-Bit Pipelined Adder
 
 ### `fsm/` – Finite State Machines
 - Traffic Light
