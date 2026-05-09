@@ -33,6 +33,7 @@ Documenting my journey learning VHDL and FPGA design from zero using Apple Silic
 - Traffic Light
 - Button Lock Sequence
 
-### `uart/` – Serial Communication
+### `peripherals/` – Hardware Interfaces & Serial Bus Protocols
 - UART TX  
 - UART RX
+- PWM Generator
