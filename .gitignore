@@ -1,2 +1,18 @@
 # macOS
 .DS_Store
+
+# GHDL & GTKWave outputs
+*.o
+*.cf
+*.vcd
+*.ghw
+
+# Vivado outputs
+*.log
+*.jou
+*.str
+.Xil/
+xsim.dir/
+vivado*.str
+*.backup.*
+*/.Xil/
