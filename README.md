@@ -1,39 +1,28 @@
 # VHDL Learning Lab
 
-Documenting my journey learning VHDL and FPGA design from zero using Apple Silicon + Ubuntu VM + GHDL + GTKWave before deploying to Basys 3 hardware.
+Documenting my journey learning VHDL and digital logic design from scratch. This portfolio tracks my progression from a simulation-first workflow using open-source tools on an ARM-based virtual machine, up to physical hardware synthesis and deployment.
 
-## Goals
+## Toolchains & Environments
 
-- Learn digital design fundamentals
-- Build simulation-first workflow
-- Understand timing and waveforms
-- Prepare for FPGA hardware deployment
+* **Simulation Environment:** Apple Silicon Mac → UTM Virtual Machine (Ubuntu ARM) → **GHDL** & **GTKWave**
+* **Hardware Environment:** Native Linux (Ubuntu) → **Xilinx Vivado Design Suite** → **Digilent Basys 3 (Artix-7 FPGA)**
 
-## Toolchain
+---
 
-- Apple Silicon Mac
-- UTM + Ubuntu ARM
-- GHDL
-- GTKWave
+## Repository Structure
 
-## Projects
-
-### `logic/` – Combinational Logic Blocks
-- AND Gate  
-- XOR Gate  
-- 2:1 Multiplexer  
-
-### `timing/` – Clocked & Timing-Based Circuits
-- 4-bit Counter  
-- Clock Divider  
-- LED Blinker Simulation
-- 8-Bit Pipelined Adder
-
-### `fsm/` – Finite State Machines
-- Traffic Light
-- Button Lock Sequence
-
-### `peripherals/` – Hardware Interfaces & Serial Bus Protocols
-- UART TX  
-- UART RX
-- PWM Generator
+```text
+vhdl-learning-lab/
+├── .gitignore               # Excludes messy Vivado/GHDL build artifacts
+├── README.md                # Project index and documentation
+└── projects/
+    ├── ghdl_and_gtk_wave/   # Pure simulation, ideal logic validation
+    │   ├── fsm/             # Finite State Machines
+    │   ├── logic/           # Combinational Logic Blocks
+    │   ├── peripherals/     # Hardware Interfaces & Serial Bus Protocols
+    │   └── timing/          # Clocked & Timing-Based Circuits
+    │
+    └── xilinx_basys3/       # Real-world hardware implementations & constraints
+        ├── fsm/             # Finite State Machines
+        ├── logic/           # Combinational Logic Blocks
+        └── timing/          # Clocked & Timing-Based Circuits
